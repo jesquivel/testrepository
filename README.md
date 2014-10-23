@@ -1,7 +1,10 @@
-GIT Pasos de instalacion y terminal, cada linea de excel es un solo comando	IR PASO A PASO EN LA GUIA PARA MEJOR ENTENDIMIENTO				
+GIT Pasos de instalacion y terminal, cada linea de excel es un solo comando
+IR PASO A PASO EN LA GUIA PARA MEJOR ENTENDIMIENTO				
 					
-1. Descargar y instalar ultima version de GIT     ----------------------------->	http://git-scm.com/				
-2. Ir a la terminal y hacer estos comandos:					
+1. Descargar y instalar ultima version de GIT http://git-scm.com/				
+2. Ir a la terminal y hacer estos comandos:		
+
+
 which git	[deberá mostrar donde está instalado GIT]				
 git —version	[muestra la version de GIT que tenemos]				
 git config --global user.mail “mymail@mail.com”					
@@ -9,10 +12,11 @@ git config --global user.name “Your Name”
 git config —list	[muestra los cambios agregados de nombre y mail]				
 git config --global color.ui true					
 cat .gitconfig	[muestra todos los cambios hechos hasta ahora]				
-curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash	[descargar el autocomplete de ayuda]				
+curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash	[descargar el autocomplete de ayuda]
 ls -la	[deberá mostrar en la lista el archivo git-completion.bash]				
-mv ~/git-completion.bash ~/.git-completion.bash	[ocupamos que el archivo se convierta en .git-completion.bash renombrandolo]				
+mv ~/git-completion.bash ~/.git-completion.bash	[ocupamos que el archivo se convierta en .git-completion.bash renombrandolo]	
 ls -la	[para verificar que el archivo se movio como .git-completion.bash				
+				
 					
 3. Editar el archivo oculto localizado en users/home/.bash_profile	Pueden editar este archivo desde terminal con nano pero es mejor con				
 pueden usar la app Funter para ver archivos ocultos	editor de texto porque ya el archivo contiene una configuracion de variables				
